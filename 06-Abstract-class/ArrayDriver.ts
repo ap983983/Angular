@@ -11,4 +11,5 @@ arr.push(rect);
 
 for (const itr of arr) {    
     console.log(itr.getInfo());
+    console.log(itr.calculateArea());
 }
